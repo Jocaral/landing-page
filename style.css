@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: sans-serif;
     margin: 0;
+    min-width: 1500px;
 }
 
 .header {
@@ -11,18 +12,19 @@ body {
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 30px;
+    padding-top: 30px; 
 }
 
 .header-up {
     display: flex;
     justify-content: space-between;
-    color: #969696;
+    color: #e80b0b;
+    flex-shrink: 20%;
 }
 
 .header-down {
     display: flex;
-    color: #969696;
+    color:#a7a7a7;
     gap: 100px;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -46,16 +48,16 @@ body {
     font-size: 18px;
     align-items: center;
 }
+a {
+    color: #a7a7a7;
+    text-decoration: none;
+}
 
 ul {
     display: flex;
     gap: 60px;
     list-style-type: none;
-}
-
-a {
-    color: #E5E7EB;
-    text-decoration: none;
+    color:#a7a7a7;
 }
 
 h1 {
@@ -102,7 +104,7 @@ h2 {
 }
 
 .info {
-    padding: 0 200px 100px
+    padding: 10px 200px 100px
 
 }
 .box {
@@ -122,7 +124,7 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 100px 200px 100px
+    padding: 100px 200px 100px;
 }
 
 h3 {
@@ -138,4 +140,42 @@ h3 {
     text-align: end;
     font-size: 20px;
     padding: 0 100px;
+}
+
+.cta {
+    display: flex;
+    color: #E5E7EB;
+    padding: 100px 200px 100px;
+    justify-content: center;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882F6;
+    padding: 50px 100px 50px;
+    border-radius: 10px;
+}
+.cta button {
+    color: #E5E7EB;
+    padding:8px 16px;
+    border: solid 2px #E5E7EB;
+    border-radius: 3px;
+    background-color: #3882F6;
+}
+
+h4 {
+    font-size: 30px ;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#a7a7a7;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
 }
