@@ -83,11 +83,6 @@ h1 {
 
 }
 
-button:hover {
-    color: #1F2937;
-
-}
-
 h2 {
     color:#1F2937 ;
     text-align: center;
@@ -172,10 +167,21 @@ h4 {
     margin: 0;
 }
 
+.cta p {
+    margin: 0;
+    padding-top: 10px;
+
+}
+
 .footer {
     background-color: #1F2937;
     color:#a7a7a7;
     text-align: center;
     font-size: 15px;
     padding: 10px 0;
+}
+
+button:hover {
+    color: #1F2937;
+
 }
